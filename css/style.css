@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+    background-color: red;
+}
+
+.people {
+    margin-top: 15px;
+}
+
+.person{
+    background-color: black;
+    height: 90px;
+    width: 30%;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.pic{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.pic img {
+    height: 100%;
+}
+
+.infos {
+    color: white;
+    line-height: 30px;
+}
